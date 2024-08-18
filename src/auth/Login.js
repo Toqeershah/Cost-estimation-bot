@@ -23,7 +23,7 @@ const Login = () => {
         Helpers.toast("error", "Invalid Credentials")
       }
     } catch (err) {
-      setError("An error occurred during login");
+      setError("An error occurred during user login");
       Helpers.toast("error", "Login Failed");
     }
   };
