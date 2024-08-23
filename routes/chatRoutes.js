@@ -6,7 +6,7 @@ const Message = require('../models/Chat'); // Ensure you have the Message model 
 require('dotenv').config();
 
 // const configuration = new Configuration({
-//   apiKey: process.env.OPENAI_API_KEY,
+//   apiKey: process.env.your_api_key_here,
 // });
 // const openai = new OpenAIApi(configuration);
 
